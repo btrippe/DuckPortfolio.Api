@@ -7,11 +7,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 // If you want to avoid the https redirect warning for local HTTP-only runs, comment this out:
 // app.UseHttpsRedirection();
