@@ -1,0 +1,6 @@
+@DuckPortfolio.Api_HostAddress = http://localhost:5234
+
+GET {{DuckPortfolio.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
