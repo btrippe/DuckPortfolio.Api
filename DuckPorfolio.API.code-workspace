@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "DuckPortfolio.Api",
+			"path": "DuckPortfolio.Api"
+		}
+	],
+	"settings": {}
+}
