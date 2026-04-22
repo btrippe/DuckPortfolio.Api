@@ -1,0 +1,10 @@
+bin/
+obj/
+.dotnet-cli/
+.vs/
+.vscode/
+*.user
+*.suo
+*.cache
+*.pdb
+*.code-workspace
